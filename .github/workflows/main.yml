@@ -1,7 +1,0 @@
-- name: autoyapf
-  # You may pin to the exact commit or the version.
-  # uses: mritunjaysharma394/autoyapf@fc7515c420b138d9c108ba8ce25cb72738d91802
-  uses: mritunjaysharma394/autoyapf@v2
-  with:
-    # Arguments to pass to autoyapf
-    args: # default is --help
