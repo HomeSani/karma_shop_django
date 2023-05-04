@@ -18,6 +18,7 @@ class Categories(models.Model):
 class Sneakers(models.Model):
     name = models.CharField(max_length=256, verbose_name="Name")
     description = models.CharField(max_length=512, verbose_name="Description")
+    image = models.ImageField(upload_to="sneakers", default=None)
     price = models.PositiveIntegerField(default=10, verbose_name="Price in $")
     width = models.PositiveIntegerField(verbose_name="Width in mm")
     height = models.PositiveIntegerField(verbose_name="Height in mm")
